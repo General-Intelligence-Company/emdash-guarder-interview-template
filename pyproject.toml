@@ -1,0 +1,11 @@
+[project]
+name = "emdash-guarder"
+version = "0.1.0"
+description = "A project using Docker SDK and Sentry SDK"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "docker>=7.0.0",
+    "sentry-sdk>=2.0.0",
+]
+
